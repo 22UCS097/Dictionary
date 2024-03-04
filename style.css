@@ -1,0 +1,88 @@
+*{
+    padding:0;
+    margin:0;
+   box-sizing: border-box;
+}
+body{
+        height:100%;
+        width:100%;
+        background: linear-gradient(180deg, rgb(87, 87, 205), rgb(87, 87, 205));
+}
+.main{
+    height:100vh;
+    width:100vw;
+   
+}
+.container{
+    min-height:20%;
+    min-width:30%;
+    max-width:80%;
+    background-color: #fff;
+    border-radius:3px;
+    position:absolute;
+    transform:traslate(-50%,-50%,);
+    top:35%;
+    left:30%;
+    box-shadow: 25px 25px rgb(54, 68, 125) ;
+    
+}
+
+
+.search{
+    margin-top:45px;
+    
+    display:flex;
+    justify-content:space-evenly;
+}
+#input{
+    
+    width:65%;
+    font-size:30px;
+    border:none;
+    border-bottom:3px solid rgb(87, 87, 205);
+    outline:none;
+}
+button{
+    width:25%;
+    background: rgb(91, 91, 184) ;
+    border:1.5px solid #fff;
+    font-family:cursive;
+    color:#fff;
+}
+button:hover{
+    background:rgb(38, 38, 139) ;
+    border:1.5px solid rgb(169, 169, 182) ;
+    color:#fff;
+    font-size:15px;
+    font-family:cursive;
+    cursor: pointer;
+
+}
+.cont{
+    display:flex;
+    justify-content: space-between;
+}
+#text{
+    font-size:1.85rem;
+    overflow-wrap: break-word;
+    max-width:500px;
+    color:rgb(22, 22, 176) ;
+    padding:20px;
+}
+#icon{
+    /* background-color: red; */
+    position:relative;
+    margin-right:2.5%;
+}
+i{
+    color:rgb(61, 61, 148) ;
+    font-size:1.8rem;
+    margin-top:20px;
+    
+}
+i:hover{
+    color:rgb(9, 30, 121) ;
+    cursor: pointer;
+    font-size:1.9rem;
+
+}
